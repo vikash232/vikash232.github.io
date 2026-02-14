@@ -7,7 +7,7 @@
   <meta name="description" content="Vikash Kaushik — Senior DevOps Engineer at io.net. Kubernetes, Docker, multi-cloud (AWS, Azure, GCP), CI/CD, SRE & platform engineering. Bengaluru, India." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -33,36 +33,37 @@
   </header>
 
   <main>
-    <section class="hero">
-      <p class="hero-greeting">
+    <section class="hero" id="hero">
+      <p class="hero-greeting hero-anim">
         <span class="wave" aria-hidden="true">👋</span> Hi, I'm
       </p>
       <h1 class="hero-title">
-        <span class="hero-title-line">Vikash</span>
-        <span class="hero-title-line">Kaushik</span>
+        <span class="hero-title-line hero-title-line--1 hero-anim">Vikash</span>
+        <span class="hero-title-line hero-title-line--2 hero-anim">Kaushik</span>
       </h1>
-      <p class="hero-tagline">
+      <p class="hero-tagline hero-anim">
         <strong>Senior DevOps Engineer</strong> @ io.net · Bengaluru, India
       </p>
-      <p class="hero-roles">
+      <div class="hero-roles hero-anim">
         <span class="pill">Kubernetes</span>
         <span class="pill">Docker</span>
         <span class="pill">Multi-Cloud</span>
         <span class="pill">CI/CD</span>
         <span class="pill">SRE</span>
         <span class="pill">Platform Engineering</span>
-      </p>
-      <div class="hero-actions">
+      </div>
+      <div class="hero-actions hero-anim">
         <a href="mailto:vikashkaushik232@gmail.com" class="btn btn-primary">
-          <span>📫</span> vikashkaushik232@gmail.com
+          <span class="btn-icon">→</span>
+          <span>Get in touch</span>
         </a>
         <a href="#connect" class="btn btn-ghost">Connect with me</a>
       </div>
     </section>
 
     <section id="about" class="section about">
-      <h2 class="section-title">About</h2>
-      <div class="about-content">
+      <h2 class="section-title reveal">About</h2>
+      <div class="about-content reveal">
         <p>
           Senior DevOps Engineer with hands-on expertise in <strong>Kubernetes</strong>, <strong>Docker</strong>, and multi-cloud environments (AWS, Azure, GCP). I work with distributed teams on cloud infrastructure, CI/CD pipelines, cloud-native security, policy-as-code (Kyverno), and chaos engineering. Based in Bengaluru (UTC+5:30); I collaborate globally via Slack, Zoom, and Git. Focus on automation, reliability, and platform engineering.
         </p>
@@ -73,32 +74,37 @@
     </section>
 
     <section id="connect" class="section connect">
-      <h2 class="section-title">Connect with me</h2>
+      <h2 class="section-title reveal">Connect with me</h2>
       <div class="connect-grid">
-        <a href="https://github.com/vikashkaushik01" target="_blank" rel="noopener noreferrer" class="card">
-          <span class="card-icon">◆</span>
+        <a href="https://github.com/vikash232" target="_blank" rel="noopener noreferrer" class="card reveal">
+          <span class="card-icon-wrap"><span class="card-icon">◆</span></span>
           <span class="card-label">GitHub</span>
-          <span class="card-handle">vikashkaushik01</span>
+          <span class="card-handle">vikash232</span>
+          <span class="card-arrow">→</span>
         </a>
-        <a href="mailto:vikashkaushik232@gmail.com" class="card">
-          <span class="card-icon">✉</span>
+        <a href="mailto:vikashkaushik232@gmail.com" class="card reveal">
+          <span class="card-icon-wrap"><span class="card-icon">✉</span></span>
           <span class="card-label">Email</span>
           <span class="card-handle">vikashkaushik232@gmail.com</span>
+          <span class="card-arrow">→</span>
         </a>
-        <a href="https://x.com/vikashkaushik01" target="_blank" rel="noopener noreferrer" class="card">
-          <span class="card-icon">◇</span>
+        <a href="https://x.com/vikashkaushik01" target="_blank" rel="noopener noreferrer" class="card reveal">
+          <span class="card-icon-wrap"><span class="card-icon">◇</span></span>
           <span class="card-label">Twitter / X</span>
           <span class="card-handle">vikashkaushik01</span>
+          <span class="card-arrow">→</span>
         </a>
-        <a href="https://www.linkedin.com/in/vikash-kaushik/" target="_blank" rel="noopener noreferrer" class="card">
-          <span class="card-icon">▣</span>
+        <a href="https://www.linkedin.com/in/vikash-kaushik/" target="_blank" rel="noopener noreferrer" class="card reveal">
+          <span class="card-icon-wrap"><span class="card-icon">▣</span></span>
           <span class="card-label">LinkedIn</span>
           <span class="card-handle">vikash kaushik</span>
+          <span class="card-arrow">→</span>
         </a>
-        <a href="https://topmate.io/vikash_kaushik" target="_blank" rel="noopener noreferrer" class="card">
-          <span class="card-icon">▸</span>
+        <a href="https://topmate.io/vikash_kaushik" target="_blank" rel="noopener noreferrer" class="card reveal">
+          <span class="card-icon-wrap"><span class="card-icon">▸</span></span>
           <span class="card-label">Topmate</span>
           <span class="card-handle">vikash_kaushik</span>
+          <span class="card-arrow">→</span>
         </a>
       </div>
     </section>
